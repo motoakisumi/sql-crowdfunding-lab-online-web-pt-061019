@@ -45,8 +45,6 @@ def selects_user_names_and_amounts_of_all_pledges_grouped_by_name_then_orders_th
   ON user.id = pledges.user_id
   GROUP BY user.name
   ORDER BY sum_amount
-
-
   "
 end
 
